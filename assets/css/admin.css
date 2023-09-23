@@ -1,0 +1,38 @@
+#transafe-generate-apikey-form {
+	padding: 1rem;
+}
+#transafe-generate-apikey-form label {
+	display: block;
+	margin-bottom: 1rem;
+}
+#transafe-generate-apikey-form label input, #transafe-generate-apikey-form label select {
+	margin-top: .25rem;
+	display: block;
+}
+#transafe-generate-apikey-form .hidden {
+	display: none;
+}
+#transafe-generate-apikey-button, #transafe-generate-apikey-form button {
+	padding: .5rem 1rem;
+}
+#transafe-generate-apikey-modal {
+	min-width: 25rem;
+	max-width: 90%;
+}
+#transafe-generate-apikey-close-modal {
+	float: right;
+	font-size: 1.3rem;
+	cursor: pointer;
+}
+#transafe-generate-apikey-close-modal:before {
+	content: "\00D7";
+}
+#transafe-generate-apikey-alert {
+	font-weight: bold;
+	color: red;
+	margin: 1rem 1rem 0 1rem;
+}
+.transafe-generate-apikey-next-step {
+	font-weight: bold;
+	color: green;
+}
